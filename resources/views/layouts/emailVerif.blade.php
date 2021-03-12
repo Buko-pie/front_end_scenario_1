@@ -110,6 +110,12 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-amin">
+        <div class="ml-auto">
+            <a class="btn btn-violet-outline my-2 my-sm-0 pill" type="submit">Login</a>
+            <a href="{{ route('register_from') }}" class="btn btn-violet-outline my-2 my-sm-0 pill" type="submit">Apply</a>
+        </div>
+    </nav>
     <div id="app">
         <main class="py-4">
             @yield('content')
